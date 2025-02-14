@@ -158,5 +158,20 @@
       "blue": "#06B6EF",
       "red": "#EF6155"
     }
+  },
+  "name": "liveterm",
+  "version": "1.0.0",
+  "description": "An interactive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --mode production"
+  },
+  "author": "Tanay Sahajwalla",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
   }
 }
